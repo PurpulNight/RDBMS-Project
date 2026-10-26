@@ -1,0 +1,29 @@
+{
+  "name": "library-management-system",
+  "version": "1.0.0",
+  "description": "Full-stack Library Management System with HTML, CSS, JavaScript and MySQL Server",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js",
+    "seed": "node database/seed.js",
+    "db:init": "node database/seed.js"
+  },
+  "keywords": [
+    "library-management",
+    "rdbms",
+    "mysql",
+    "html",
+    "css",
+    "javascript",
+    "express"
+  ],
+  "author": "Yash Sahai Bhatnagar",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mysql2": "^3.12.0"
+  }
+}
